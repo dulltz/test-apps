@@ -4,6 +4,7 @@ metadata:
   name: testhttpd
   namespace: argocd
 spec:
+  project: maneki
   source:
     repoURL: https://github.com/dulltz/test-apps.git
     targetRevision: master
