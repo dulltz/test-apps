@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: testhttpd
-  namespace: monitoring
+  namespace: app-monitoring
 spec:
   replicas: 1
   selector:
