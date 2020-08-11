@@ -11,7 +11,6 @@ spec:
     path: testhttpd
   destination:
     server: https://kubernetes.default.svc
-    namespace: app-monitoring
   syncPolicy:
     automated:
       prune: true
